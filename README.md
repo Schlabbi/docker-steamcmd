@@ -1,9 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
-* [`16.04`, `xenial`](https://github.com/Hackebein/docker-steamcmd/blob/master/builds/xenial/Dockerfile)
-* [`18.04`, `bionic`](https://github.com/Hackebein/docker-steamcmd/blob/master/builds/bionic/Dockerfile)
-* [`20.04`, `focal`](https://github.com/Hackebein/docker-steamcmd/blob/master/builds/focal/Dockerfile)
-* [`22.04`, `jammy`, `latest`](https://github.com/Hackebein/docker-steamcmd/blob/master/builds/jammy/Dockerfile)
+* [`latest`](https://github.com/schlabbi/docker-steamcmd/blob/master/Dockerfile)
 
 Tags switching between [Ubuntu](https://hub.docker.com/_/ubuntu/) base images.
 
@@ -15,4 +12,4 @@ For detailed information about SteamCMD, please see [wiki](https://developer.val
 
 # Quick Start
 
-docker run hackebein/steamcmd +login anonymous +quit
+docker run schlabbi/steamcmd +login anonymous +quit
