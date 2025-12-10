@@ -5,6 +5,7 @@ on:
     - master
   schedule:
   - cron: 0 4 * * 1
+jobs:
   ubuntu-24_04:
     runs-on: ubuntu-latest
     steps:
