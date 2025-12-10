@@ -7,7 +7,7 @@ RUN apk add --update --no-cache \
  && tar -C /app -xf '/tmp/steamcmd_linux.tar.gz' \
  && ln -s steamcmd.sh /app/steamcmd
 
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 ENV DEBIAN_FRONTEND=noninteractive \
     PATH=$PATH:/opt/steamcmd
 COPY --from=base /app /opt/steamcmd
